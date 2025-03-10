@@ -10,7 +10,6 @@ radius = 37.1452
 
 [node name="Ball" type="RigidBody2D"]
 physics_material_override = SubResource("1")
-gravity_scale = 4.0
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.5, 0.5)

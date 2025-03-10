@@ -27,10 +27,12 @@ bounce = 0.5
 bounce = 0.5
 
 [sub_resource type="PhysicsMaterial" id="8"]
-bounce = 0.5
+bounce = 0.1
+absorbent = true
 
 [sub_resource type="PhysicsMaterial" id="9"]
-bounce = 0.5
+bounce = 0.1
+absorbent = true
 
 [node name="Main" type="Node"]
 script = ExtResource("1")
@@ -151,4 +153,4 @@ position = Vector2(513, 44)
 
 [node name="Ball4" parent="." instance=ExtResource("2")]
 position = Vector2(526, -111)
-gravity_scale = 7.81
+gravity_scale = 1.025
